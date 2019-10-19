@@ -7656,7 +7656,11 @@ Created using IcoMoon - icomoon.io
     color: #dd4b39;
 }
 
-.cc-instagram:hover i {
+.cc-github:hover i {
+    color: #dd4b39;
+}
+
+.cc-linkedin:hover i {
     color: #405de6;
 }
 
