@@ -35,6 +35,22 @@
     text-align-last: center;
 }
 
+.pink-text {
+    color: crimson;
+}
+
+#pink-btn {
+    background-color: crimson;
+}
+
+.blue-text {
+    color: #33b5e5;
+}
+
+#blue-btn {
+    background-color: #33b5e5;
+}
+
 .bootstrap-switch {
     display: inline-block;
     direction: ltr;
@@ -1574,7 +1590,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-    background-color: #378C3F;
+    background-color: #376e8c;
     color: #FFFFFF;
 }
 
@@ -1589,7 +1605,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .show>.btn-primary.dropdown-toggle,
 .show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
-    background-color: #40a249;
+    background-color: #4da1d1;
     color: #FFFFFF;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -1624,13 +1640,13 @@ fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
-    background-color: #378C3F;
-    border-color: #378C3F;
+    background-color: rgb(55, 137, 140);
+    border-color: rgb(55, 89, 140);
 }
 
 .btn-primary.btn-simple {
-    color: #378C3F;
-    border-color: #378C3F;
+    color: rgb(55, 113, 140);
+    border-color: rgb(55, 68, 140);
 }
 
 .btn-primary.btn-simple:hover,
@@ -1651,7 +1667,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary.btn-link:focus,
 .btn-primary.btn-link:active {
     background-color: transparent;
-    color: #40a249;
+    color: #5ba5d6;
     text-decoration: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -2864,16 +2880,16 @@ textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-    background: rgba(55, 140, 63, 0.4);
+    background: rgba(55, 64, 140, 0.4);
 }
 
 .progress-container.progress-primary .progress-bar {
-    background: #378C3F;
+    background: rgb(55, 99, 140);
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-    color: #378C3F;
+    color: rgb(64, 55, 140);
 }
 
 .progress-container.progress-info .progress {
@@ -3411,7 +3427,7 @@ body {
 .nav-pills.nav-pills-primary .nav-item .nav-link.active,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-    background-color: #378C3F;
+    background-color: rgb(61, 55, 140);
 }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active,
@@ -3727,7 +3743,7 @@ body {
 }
 
 .bg-primary {
-    background-color: #378C3F !important;
+    background-color: rgb(26, 24, 46) !important;
 }
 
 .bg-info {
@@ -7680,3 +7696,8 @@ a.credit {
 .section {
     padding-bottom: 0;
 }
+
+
+/* #githubBtn {
+    width: -webkit-fill-available;
+} */

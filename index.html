@@ -29,6 +29,8 @@
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#" data-toggle="modal" data-target="#signinModal">Sign in</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#" data-toggle="modal" data-target="#signupModal">Sign up</a></li>
                         </ul>
                     </div>
                 </div>
@@ -48,7 +50,7 @@
                                 </div>
                                 <div class="h2 title">Amjed Ayoub</div>
                                 <p class="category text-white">Full Stack Developer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">contact Me</a>
-                                <a class="btn btn-primary" href="documents/AmjedAyoubResume.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">My Resume</a>
+                                <a class="btn btn-primary" href="documents/AmjedAyoubResume.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">My Resume</a>
                             </div>
                         </div>
                         <div class="section">
@@ -89,15 +91,15 @@
                                     </div>
                                     <div class="row mt-3">
                                         <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
-                                        <div class="col-sm-8">+509-934-9791</div>
+                                        <div class="col-sm-8">+1-509-934-9791</div>
                                     </div>
                                     <div class="row mt-3">
                                         <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-                                        <div class="col-sm-8">Renton, WA, U.S.A</div>
+                                        <div class="col-sm-8">Renton, WA, USA</div>
                                     </div>
                                     <div class="row mt-3">
                                         <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
-                                        <div class="col-sm-8">English, Arabic, Greeck</div>
+                                        <div class="col-sm-8">English, Arabic, Greek</div>
                                     </div>
                                 </div>
                             </div>
@@ -206,7 +208,7 @@
                                                     </figcaption>
                                                 </figure>
                                             </a>
-                                            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/AmjedAyoub/LittleLibraries" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
+                                            <a class="btn btn-default btn-round btn-lg btn-icon" id="githubBtn" href="https://github.com/AmjedAyoub/LittleLibraries" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
                                         </div>
                                         <div class="cc-porfolio-image img-raised RecentProject" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                             <a href="https://amjedayoub.github.io/ImageAggregator/" target="_blank">
@@ -217,7 +219,7 @@
                                                     </figcaption>
                                                 </figure>
                                             </a>
-                                            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/AmjedAyoub/ImageAggregator" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
+                                            <a class="btn btn-default btn-round btn-lg btn-icon" id="githubBtn" href="https://github.com/AmjedAyoub/ImageAggregator" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -230,7 +232,7 @@
                                                     </figcaption>
                                                 </figure>
                                             </a>
-                                            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/AmjedAyoub/LocalStoreManaging" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
+                                            <a class="btn btn-default btn-round btn-lg btn-icon" id="githubBtn" href="https://github.com/AmjedAyoub/LocalStoreManaging" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
                                         </div>
                                         <div class="cc-porfolio-image img-raised RecentProject" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                             <a href="https://secret-mesa-15871.herokuapp.com/" target="_blank">
@@ -241,7 +243,7 @@
                                                     </figcaption>
                                                 </figure>
                                             </a>
-                                            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/AmjedAyoub/Friend_Finder" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
+                                            <a class="btn btn-default btn-round btn-lg btn-icon" id="githubBtn" href="https://github.com/AmjedAyoub/Friend_Finder" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -254,7 +256,7 @@
                                                     </figcaption>
                                                 </figure>
                                             </a>
-                                            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/AmjedAyoub/burger" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
+                                            <a class="btn btn-default btn-round btn-lg btn-icon" id="githubBtn" href="https://github.com/AmjedAyoub/burger" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
                                         </div>
                                         <!-- <div class="cc-porfolio-image img-raised RecentProject" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                             <a href="https://secret-mesa-15871.herokuapp.com/" target="_blank">
@@ -265,20 +267,12 @@
                                                     </figcaption>
                                                 </figure>
                                             </a>
-                                            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/AmjedAyoub/Friend_Finder" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
+                                            <a class="btn btn-default btn-round btn-lg btn-icon" id="githubBtn" href="https://github.com/AmjedAyoub/Friend_Finder" target="_blank" rel="tooltip" title="GitHub"><i class="fa fa-github"></i></a>
                                         </div> -->
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--
-                               <a class="dropdown-item" href="https://github.com/AmjedAyoub/Node.js--MySQL" target="_blank">Node.js--MySQL!</a>
-                                <a class="dropdown-item" href="https://github.com/AmjedAyoub/liri-node-app" target="_blank">Liri Node App!</a>
-                                <a class="dropdown-item" href="https://amjedayoub.github.io/Word-Guess-Game/" target="_blank">Word Guess!</a>
-                                <a class="dropdown-item" href="https://amjedayoub.github.io/Unit-4-Game/" target="_blank">Star wars!</a>
-                                <a class="dropdown-item" href="https://amjedayoub.github.io/TriviaGame/" target="_blank">Trivia Game!</a>
-                                <a class="dropdown-item" href="https://amjedayoub.github.io/AnimalsImages/" target="_blank">Animals Images!</a>
-                             -->
                         <div class="tab-pane" id="graphic-design" role="tabpanel">
                             <div class="ml-auto mr-auto">
                                 <div class="row">
@@ -382,7 +376,7 @@
                                                 <figure class="cc-effect"><img src="images/meandwife2.JPG" alt="Image" />
                                                     <figcaption>
                                                         <div class="h4">Photoshoot</div>
-                                                        <p>Me and my Wife</p>
+                                                        <p>My Wife and I / San Diego, CA</p>
                                                     </figcaption>
                                                 </figure>
                                             </a>
@@ -392,7 +386,7 @@
                                                 <figure class="cc-effect"><img src="images/me.JPG" alt="Image" />
                                                     <figcaption>
                                                         <div class="h4">Photoshoot</div>
-                                                        <p>Me</p>
+                                                        <p>Me / Bainbridge Island, WA</p>
                                                     </figcaption>
                                                 </figure>
                                             </a>
@@ -404,7 +398,7 @@
                                                 <figure class="cc-effect"><img src="images/me2.jpg" alt="Image" />
                                                     <figcaption>
                                                         <div class="h4">Photoshoot</div>
-                                                        <p>Me</p>
+                                                        <p>Me / San Diego, CA</p>
                                                     </figcaption>
                                                 </figure>
                                             </a>
@@ -414,7 +408,7 @@
                                                 <figure class="cc-effect"><img src="images/meandwife1.jpg" alt="Image" />
                                                     <figcaption>
                                                         <div class="h4">Photoshoot</div>
-                                                        <p>Me and my Wife</p>
+                                                        <p>My Wife and I / Seattle, WA</p>
                                                     </figcaption>
                                                 </figure>
                                             </a>
@@ -585,7 +579,7 @@
                                                         <div class="row mb-3">
                                                             <div class="col">
                                                                 <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                                                                    <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required" />
+                                                                    <input class="form-control" type="text" name="subject" placeholder="Subject" required="required" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -613,10 +607,10 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="card-body">
-                                                    <p class="mb-0"><strong>Address </strong></p>
-                                                    <p class="pb-2">REnton, WA, U.S.A</p>
+                                                    <p class="mb-0"><strong>Address</strong></p>
+                                                    <p class="pb-2">Renton, WA, USA</p>
                                                     <p class="mb-0"><strong>Phone</strong></p>
-                                                    <p class="pb-2">+1509-934-9791</p>
+                                                    <p class="pb-2">+1-509-934-9791</p>
                                                     <p class="mb-0"><strong>Email</strong></p>
                                                     <p>amjadkayoub@gmail.com</p>
                                                 </div>
@@ -627,6 +621,97 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                </div>
+                <div class="modal-body">
+                    <div class="card-body">
+
+                        <!--Header-->
+                        <div class="text-center blue-text">
+                            <h3>
+                                <i class="fa fa-lock blue-text"></i> Sign in</h3>
+                            <hr class="mt-2 mb-2">
+                        </div>
+                        <br>
+
+                        <!--Body-->
+
+                        <div class="md-form">
+                            <i class="fa fa-envelope prefix grey-text"></i>
+                            <input type="text" id="pinkForm-email" class="form-control">
+                            <label for="pinkForm-email">Your email</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fa fa-key prefix grey-text"></i>
+                            <input type="password" id="pinkForm-password" class="form-control">
+                            <label for="pinkForm-passord">Your password</label>
+                        </div>
+
+                        <div class="text-center">
+                            <button class="btn btn-pink waves-effect waves-light" id="blue-btn">Sign in</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                </div>
+                <div class="modal-body">
+                    <div class="card-body">
+
+                        <!--Header-->
+                        <div class="text-center pink-text">
+                            <h3>
+                                <i class="fa fa-user-plus pink-text"></i> Sign up</h3>
+                            <hr class="mt-2 mb-2">
+                        </div>
+                        <br>
+
+                        <!--Body-->
+                        <div class="md-form">
+                            <i class="fa fa-user prefix grey-text"></i>
+                            <input type="text" id="pinkForm-name" class="form-control">
+                            <label for="pinkForm-name">Your name</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fa fa-envelope prefix grey-text"></i>
+                            <input type="text" id="pinkForm-email" class="form-control">
+                            <label for="pinkForm-email">Your email</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fa fa-key prefix grey-text"></i>
+                            <input type="password" id="pinkForm-password" class="form-control">
+                            <label for="pinkForm-passord">Your password</label>
+                        </div>
+
+                        <div class="text-center">
+                            <button class="btn btn-pink waves-effect waves-light" id="pink-btn">Sign up</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
