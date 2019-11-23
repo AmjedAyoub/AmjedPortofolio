@@ -7707,7 +7707,31 @@ a.credit {
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
 
+.major{
+    width: 250px;
+    height: 200px;
+}
 
-/* #githubBtn {
-    width: -webkit-fill-available;
-} */
+.photo{
+    float: left;
+    padding: 10px;
+}
+
+#proItem{
+    width: 200px;
+}
+
+.skill-img{
+    width: 150px;
+    height: 125px;
+    padding: 10px;
+}
+
+#perl{
+    width: 330px;
+    height: 125px;
+}
+
+.img-div{
+    justify-content: space-evenly;
+}
