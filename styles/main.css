@@ -7722,16 +7722,22 @@ a.credit {
 }
 
 .skill-img{
-    width: 150px;
-    height: 125px;
-    padding: 10px;
+    width: 130px;
+    height: 120px;
+    padding: 20px;
 }
 
 #perl{
-    width: 330px;
-    height: 125px;
+    width: 300px;
+    height: 120px;
 }
 
 .img-div{
+    text-align: center;
     justify-content: space-evenly;
+}
+
+#portBtn{
+    text-align: center;
+    place-content: space-evenly;
 }
