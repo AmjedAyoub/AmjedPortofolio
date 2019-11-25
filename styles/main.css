@@ -7721,7 +7721,7 @@ a.credit {
     width: 200px;
 }
 
-#skill-img{
+.skill-img{
     width: 130px;
     height: 120px;
     padding: 20px;
@@ -7730,10 +7730,9 @@ a.credit {
 #perl{
     width: 300px;
     height: 120px;
-    padding: 20px;
 }
 
-#img-div{
+.img-div{
     text-align: center;
     justify-content: space-evenly;
 }
