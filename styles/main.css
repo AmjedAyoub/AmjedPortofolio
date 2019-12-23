@@ -33,6 +33,7 @@
 
 .RecentProject {
     text-align-last: center;
+    min-height: 310px;
 }
 
 .pink-text {
@@ -3174,8 +3175,8 @@ h4,
 .h4 {
     font-size: 1.714em;
     line-height: 1.45em;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
 
 h4+.category,
@@ -7340,7 +7341,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .gallery figure.cc-effect .h4 {
-    margin-top: 25%;
+    margin-top: 5%;
     -webkit-transition: -webkit-transform 0.35s;
     transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
@@ -7741,3 +7742,7 @@ a.credit {
     text-align: center;
     place-content: space-evenly;
 }
+
+/* .hh3{
+    color: rgb(20, 20, 20);
+} */
