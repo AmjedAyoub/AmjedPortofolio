@@ -35,6 +35,13 @@
     text-align-last: center;
     min-height: 310px;
 }
+.RecentPr{
+    margin-bottom: 1.5rem;
+}
+
+.projectImg{
+    height: 305px;
+} 
 
 .pink-text {
     color: crimson;
@@ -7403,7 +7410,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .gallery figure.cc-effect:hover figcaption:before {
-    background: rgba(27, 23, 23, 0.5);
+    background: rgba(27, 23, 23, 0.856);
 }
 
 .gallery figure.cc-effect:hover .h4,
