@@ -33,14 +33,36 @@
 
 .RecentProject {
     text-align-last: center;
-    min-height: 340px;
+    min-height: 300px;
 }
 .RecentPr{
     margin-bottom: 1.5rem;
 }
 
+.ProjectRow{
+    justify-content: center;
+}
+
+.projectDisc{
+    float: right;
+    margin-top: 1rem;
+}
+
+.projectImgDisc{
+    margin-top: 1rem;
+    float: left;
+}
+.projectDisc2{
+    float: left;
+    margin-top: 1rem;
+}
+
+.projectImgDisc2{
+    margin-top: 1rem;
+    float: right;
+}
 .projectImg{
-    height: 335px;
+    height: 295px;
 } 
 
 .pink-text {
