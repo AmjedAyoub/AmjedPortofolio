@@ -34,6 +34,7 @@
 .RecentProject {
     text-align-last: center;
     min-height: 300px;
+    color: rgb(26, 24, 46);
 }
 .RecentPr{
     margin-bottom: 3rem;
@@ -50,6 +51,7 @@
 
 .projectImgDisc{
     margin-top: 1rem;
+    margin-bottom: 1rem;
     float: left;
 }
 .projectDisc2{
@@ -57,8 +59,13 @@
     margin-top: 1rem;
 }
 
+.headd{
+    /* background-color: rgba(34, 30, 30, 0.192); */
+}
+
 .projectImgDisc2{
     margin-top: 1rem;
+    margin-bottom: 1rem;
     float: right;
 }
 .projectImg{
