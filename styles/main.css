@@ -7178,6 +7178,7 @@ Created using IcoMoon - icomoon.io
 }
 
 @media screen and (max-width: 768px) {
+
     .image-container.image-left {
         margin-bottom: 220px;
     }
@@ -7203,6 +7204,30 @@ Created using IcoMoon - icomoon.io
 }
 
 @media screen and (max-width: 576px) {
+    body{
+        background-color: #315253;
+    }
+    .card {
+        background-color: #6aa9;
+    }
+    .RecentProject {
+        background-color: #6aa9;
+    }
+    .card-body {
+        background-color: #6aa9;
+    }
+    .section {
+        background: #315253;
+    }
+    .input-group-addon {
+        background-color: #6aa9;
+    }
+    .category {
+        color: #575050;
+    }
+    a {
+        color: #205125;
+    }
     .navbar[class*='navbar-expand-'] .container {
         margin-left: 0;
         margin-right: 0;
