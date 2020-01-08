@@ -7177,24 +7177,24 @@ Created using IcoMoon - icomoon.io
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     body{
         background-color: #315253;
     }
     .card {
-        background-color: #4b808099;
+        background-color: #868e96;
     }
     .RecentProject {
-        background-color: #4b808099;
+        background-color: #868e96;
     }
     .card-body {
-        background-color: #4b808099;
+        background-color: #868e96;
     }
     .section {
         background: #315253;
     }
     .input-group-addon {
-        background-color: #4b808099;
+        background-color: #868e96;
     }
     .category {
         color: #575050;
@@ -7237,19 +7237,19 @@ Created using IcoMoon - icomoon.io
         background-color: #315253;
     }
     .card {
-        background-color: #4b808099;
+        background-color: #868e96;
     }
     .RecentProject {
-        background-color: #4b808099;
+        background-color: #868e96;
     }
     .card-body {
-        background-color: #4b808099;
+        background-color: #868e96;
     }
     .section {
         background: #315253;
     }
     .input-group-addon {
-        background-color: #4b808099;
+        background-color: #868e96;
     }
     .category {
         color: #575050;
