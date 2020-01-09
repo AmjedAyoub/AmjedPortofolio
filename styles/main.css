@@ -7202,9 +7202,9 @@ Created using IcoMoon - icomoon.io
     a {
         color: #205125;
     }
-    .githubBtn{
+    /* .githubBtn{
         clear: both;
-    }
+    } */
     .techAndTools{
         float: none !important;
     }
@@ -7272,9 +7272,9 @@ Created using IcoMoon - icomoon.io
     .techAndTools{
         float: none !important;
     }
-    .githubBtn{
+    /* .githubBtn{
         clear: both;
-    }
+    } */
     .navbar[class*='navbar-expand-'] .container {
         margin-left: 0;
         margin-right: 0;
