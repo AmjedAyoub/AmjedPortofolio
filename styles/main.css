@@ -31,6 +31,14 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+ .techAndTools{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
 .RecentProject {
     text-align-last: center;
     min-height: 300px;
@@ -7851,13 +7859,6 @@ a.credit {
     place-content: space-evenly;
 }
 
-.techAndTools{
-    float: left;
-}
-
-.clear{
-    clear: both;
-}
 /* .hh3{
     color: rgb(20, 20, 20);
 } */
