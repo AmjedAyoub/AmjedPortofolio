@@ -7202,6 +7202,12 @@ Created using IcoMoon - icomoon.io
     a {
         color: #205125;
     }
+    .githubBtn{
+        clear: both;
+    }
+    .techAndTools{
+        float: none !important;
+    }
     .bg-primary {
         background-color: #1f5a5b !important;
     }
@@ -7262,6 +7268,12 @@ Created using IcoMoon - icomoon.io
     }
     .cc-education-header{
         background-color: #1f5a5b !important;
+    }
+    .techAndTools{
+        float: none !important;
+    }
+    .githubBtn{
+        clear: both;
     }
     .navbar[class*='navbar-expand-'] .container {
         margin-left: 0;
@@ -7839,6 +7851,13 @@ a.credit {
     place-content: space-evenly;
 }
 
+.techAndTools{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
 /* .hh3{
     color: rgb(20, 20, 20);
 } */
